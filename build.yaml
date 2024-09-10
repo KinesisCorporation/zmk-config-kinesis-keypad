@@ -1,4 +1,3 @@
 include:
   - board: mwavenumpad
     snippet: studio-rpc-usb-uart
-    snipper: zmk-usb-logging
