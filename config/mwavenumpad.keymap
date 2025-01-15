@@ -11,6 +11,7 @@
         compatible = "zmk,keymap";
 
         Base {
+            display-name = "Base";
             bindings = <
 &lt 1 KP_NUMLOCK  &kp KP_SLASH  &kp KP_ASTERISK  &kp KP_SUBTRACT
 &kp KP_N7         &kp KP_N8     &kp KP_N9        &kp KP_PLUS
@@ -21,6 +22,7 @@
         };
 
         Fn {
+            display-name = "Fn";
             bindings = <
 &trans      &kp KP_SLASH  &kp KP_ASTERISK  &kp KP_EQUAL
 &kp KP_N7   &kp KP_N8     &kp KP_N9        &bl BL_CYCLE
@@ -30,16 +32,34 @@
             >;
         };
 
-        extra2 { status = "reserved"; };
+        extra1 { 
+            display-name = "Extra";    
+            status = "reserved";
+        };
 
-        extra3 { status = "reserved"; };
+        extra2 { 
+            display-name = "Extra";    
+            status = "reserved";
+        };
 
-        extra4 { status = "reserved"; };
+        extra3 { 
+            display-name = "Extra";    
+            status = "reserved";
+        };
 
-        extra5 { status = "reserved"; };
+        extra4 { 
+            display-name = "Extra";    
+            status = "reserved";
+        };
 
-        extra6 { status = "reserved"; };
+        extra5 { 
+            display-name = "Extra";    
+            status = "reserved";
+        };
 
-        extra7 { status = "reserved"; };
+        extra6 { 
+            display-name = "Extra";    
+            status = "reserved";
+        };
     };
 };
