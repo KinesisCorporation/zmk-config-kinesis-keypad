@@ -3,6 +3,9 @@ include:
     snippet: studio-rpc-usb-uart  
     artifact-name: keypad
   - board: mwavenumpad
+    snippet: studio-rpc-usb-uart zmk-usb-logging 
+    artifact-name: keypad-logging
+  - board: mwavenumpad
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
     artifact-name: settings-reset
