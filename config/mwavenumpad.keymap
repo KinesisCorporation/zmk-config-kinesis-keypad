@@ -1,5 +1,6 @@
 #include <dt-bindings/advertising_mode.h>
 #include <behaviors/advertising_mode.dtsi>
+#include <behaviors/stp_indicators.dtsi>
 #include "mwave_prim.dtsi"
 #include "studio-macros.dtsi"
 #include <behaviors.dtsi>
@@ -29,7 +30,7 @@
 &kp KP_N7   &kp KP_N8     &kp KP_N9        &bl BL_CYCLE
 &kp KP_N4   &kp KP_N5     &kp KP_N6
 &kp KP_N1   &kp KP_N2     &kp KP_N3        &studio_unlock
-&bt BT_CLR                &kp KP_DOT
+&bt BT_CLR                &macro_ver
             >;
         };
 
